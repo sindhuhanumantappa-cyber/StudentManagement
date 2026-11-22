@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #173b68;
+}
+
+form {
+    background-color: white;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1769aa;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #104b7c;
+}
+
+
+#studentList {
+    max-width: 400px;
+    margin: auto;
+}
+
+#studentList div {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    text-align: left;
+}

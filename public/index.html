@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Student Management System</h1>
+
+    <h2>Register New Student</h2>
+
+    <form id="studentForm">
+
+        <label>Student Name:</label>
+        <input type="text" id="name"
+               placeholder="Enter student name" required>
+
+        <label>Email:</label>
+        <input type="email" id="email"
+               placeholder="Enter email" required>
+
+        <label>Course:</label>
+        <select id="course" required>
+            <option value="">Select Course</option>
+            <option value="CSE">CSE</option>
+            <option value="ISE">ISE</option>
+            <option value="ECE">ECE</option>
+        </select>
+
+        <button type="submit">Register Student</button>
+
+    </form>
+
+    <h2>Registered Students</h2>
+
+    <div id="studentList"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
